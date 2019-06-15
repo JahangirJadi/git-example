@@ -3,3 +3,192 @@ git status
 git add
 git add "."
 commit
+
+
+Microsoft Windows [Version 10.0.17134.829]
+(c) 2018 Microsoft Corporation. All rights reserved.
+
+C:\Users\Jahangir Jadi>git -v
+unknown option: -v
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+C:\Users\Jahangir Jadi>git -V
+unknown option: -V
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+C:\Users\Jahangir Jadi>git --version
+git version 2.21.0.windows.1
+
+C:\Users\Jahangir Jadi>F:
+
+F:\>cd python
+
+F:\python>git init
+Initialized empty Git repository in F:/python/.git/
+
+F:\python>.git
+'.git' is not recognized as an internal or external command,
+operable program or batch file.
+
+F:\python>add .git
+'add' is not recognized as an internal or external command,
+operable program or batch file.
+
+F:\python>git add .git
+
+F:\python>git init
+Reinitialized existing Git repository in F:/python/.git/
+
+F:\python>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        .ipynb_checkpoints/
+        1.6.19.ipynb
+        Assignment 1.ipynb
+        Assignment 2 ATM Machine.ipynb
+        Class 2.ipynb
+        Class 5 25.5.19.ipynb
+        PIAIC Official Assignment Mirza Mamoon Baig AIC004248 SAIMS 515 to 815 (Saturday).ipynb
+        PIAIC Official assignment 1 - Copy.ipynb
+        PIAIC Official assignment 1.ipynb
+        ToDo List.ipynb
+        firstProgram.ipynb
+        gitCommands.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+F:\python>git add .
+warning: LF will be replaced by CRLF in .ipynb_checkpoints/1.6.19-checkpoint.ipynb.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in .ipynb_checkpoints/Assignment 1-checkpoint.ipynb.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in .ipynb_checkpoints/Assignment 2 ATM Machine-checkpoint.ipynb.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in .ipynb_checkpoints/Class 2-checkpoint.ipynb.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in .ipynb_checkpoints/Class 5 25.5.19-checkpoint.ipynb.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in .ipynb_checkpoints/PIAIC Official Assignment Mirza Mamoon Baig AIC004248 SAIMS 515 to 815 (Saturday)-checkpoint.ipynb.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in .ipynb_checkpoints/PIAIC Official assignment 1-checkpoint.ipynb.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in .ipynb_checkpoints/ToDo List-checkpoint.ipynb.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in .ipynb_checkpoints/firstProgram-checkpoint.ipynb.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 1.6.19.ipynb.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment 1.ipynb.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment 2 ATM Machine.ipynb.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Class 2.ipynb.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Class 5 25.5.19.ipynb.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in PIAIC Official Assignment Mirza Mamoon Baig AIC004248 SAIMS 515 to 815 (Saturday).ipynb.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in PIAIC Official assignment 1 - Copy.ipynb.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in PIAIC Official assignment 1.ipynb.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in ToDo List.ipynb.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in firstProgram.ipynb.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in gitCommands.txt.
+The file will have its original line endings in your working directory
+
+F:\python>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   .ipynb_checkpoints/1.6.19-checkpoint.ipynb
+        new file:   .ipynb_checkpoints/Assignment 1-checkpoint.ipynb
+        new file:   .ipynb_checkpoints/Assignment 2 ATM Machine-checkpoint.ipynb
+        new file:   .ipynb_checkpoints/Class 2-checkpoint.ipynb
+        new file:   .ipynb_checkpoints/Class 5 25.5.19-checkpoint.ipynb
+        new file:   .ipynb_checkpoints/PIAIC Official Assignment Mirza Mamoon Baig AIC004248 SAIMS 515 to 815 (Saturday)-checkpoint.ipynb
+        new file:   .ipynb_checkpoints/PIAIC Official assignment 1-checkpoint.ipynb
+        new file:   .ipynb_checkpoints/ToDo List-checkpoint.ipynb
+        new file:   .ipynb_checkpoints/firstProgram-checkpoint.ipynb
+        new file:   1.6.19.ipynb
+        new file:   Assignment 1.ipynb
+        new file:   Assignment 2 ATM Machine.ipynb
+        new file:   Class 2.ipynb
+        new file:   Class 5 25.5.19.ipynb
+        new file:   PIAIC Official Assignment Mirza Mamoon Baig AIC004248 SAIMS 515 to 815 (Saturday).ipynb
+        new file:   PIAIC Official assignment 1 - Copy.ipynb
+        new file:   PIAIC Official assignment 1.ipynb
+        new file:   ToDo List.ipynb
+        new file:   firstProgram.ipynb
+        new file:   gitCommands.txt
+
+
+F:\python>git commit -m "testing"
+[master (root-commit) 97867f7] testing
+ 20 files changed, 10706 insertions(+)
+ create mode 100644 .ipynb_checkpoints/1.6.19-checkpoint.ipynb
+ create mode 100644 .ipynb_checkpoints/Assignment 1-checkpoint.ipynb
+ create mode 100644 .ipynb_checkpoints/Assignment 2 ATM Machine-checkpoint.ipynb
+ create mode 100644 .ipynb_checkpoints/Class 2-checkpoint.ipynb
+ create mode 100644 .ipynb_checkpoints/Class 5 25.5.19-checkpoint.ipynb
+ create mode 100644 .ipynb_checkpoints/PIAIC Official Assignment Mirza Mamoon Baig AIC004248 SAIMS 515 to 815 (Saturday)-checkpoint.ipynb
+ create mode 100644 .ipynb_checkpoints/PIAIC Official assignment 1-checkpoint.ipynb
+ create mode 100644 .ipynb_checkpoints/ToDo List-checkpoint.ipynb
+ create mode 100644 .ipynb_checkpoints/firstProgram-checkpoint.ipynb
+ create mode 100644 1.6.19.ipynb
+ create mode 100644 Assignment 1.ipynb
+ create mode 100644 Assignment 2 ATM Machine.ipynb
+ create mode 100644 Class 2.ipynb
+ create mode 100644 Class 5 25.5.19.ipynb
+ create mode 100644 PIAIC Official Assignment Mirza Mamoon Baig AIC004248 SAIMS 515 to 815 (Saturday).ipynb
+ create mode 100644 PIAIC Official assignment 1 - Copy.ipynb
+ create mode 100644 PIAIC Official assignment 1.ipynb
+ create mode 100644 ToDo List.ipynb
+ create mode 100644 firstProgram.ipynb
+ create mode 100644 gitCommands.txt
+
+F:\python>git status
+On branch master
+nothing to commit, working tree clean
+
+F:\python>
+F:\python>
+F:\python>git remote add origin https://github.com/JahangirJadi/git-example.git
+
+F:\python>git remote add origin https://github.com/JahangirJadi/git-example.git
+fatal: remote origin already exists.
+
+F:\python>git push -u origin master
+Enumerating objects: 14, done.
+Counting objects: 100% (14/14), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (13/13), done.
+Writing objects: 100% (14/14), 13.93 KiB | 950.00 KiB/s, done.
+Total 14 (delta 7), reused 0 (delta 0)
+remote: Resolving deltas: 100% (7/7), done.
+To https://github.com/JahangirJadi/git-example.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+F:\python>
+
+F:\python>
